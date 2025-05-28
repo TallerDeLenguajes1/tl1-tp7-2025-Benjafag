@@ -21,7 +21,8 @@ public class Calculadora
   }
   public void Dividir(double termino)
   {
-    dato /= termino;
+    if (termino != 0)
+      dato /= termino;
   }
   public void Limpiar()
   {
